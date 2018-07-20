@@ -23,14 +23,14 @@ class AppNavbar extends Component {
           expand="sm"
           className="Navbar mb-5">
           <Container>
-            <NavbarBrand href="/">Shoping List</NavbarBrand>
+            <NavbarBrand href="/">List</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse
               isOpen={this.state.isOpen}
               navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="/">Github</NavLink>
+                  <NavLink href="https://github.com/shutsugan">Github</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

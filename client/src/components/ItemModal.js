@@ -51,7 +51,7 @@ class ItemModal extends Component {
         >
           <ModalHeader
           toggle={this.toggle}
-          >Add to shopping list</ModalHeader>
+          >Add to list</ModalHeader>
           <ModalBody>
             <Form onSubmit={this.onSubmit}>
               <FormGroup>
